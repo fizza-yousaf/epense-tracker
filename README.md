@@ -212,6 +212,13 @@ This project represents my hands-on learning journey in React development.
 - Export expense reports as CSV or PDF.
 
 ---
+## 📸 Project Screenshots
+
+### Initial Dashboard
+![Initial Dashboard](https://github.com/user-attachments/assets/ACTUAL-FIRST-IMAGE-ID)
+
+### Dashboard With Expenses
+![Dashboard With Expenses](https://github.com/user-attachments/assets/ACTUAL-SECOND-IMAGE-ID)
 
 ## 👩‍💻 About the Developer
 
