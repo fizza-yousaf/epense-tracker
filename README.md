@@ -1,17 +1,131 @@
-# React + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Expense Tracker web application** built with React and Vite. The application allows users to manage their daily expenses, organize them by category, and view useful financial summaries through a clean dashboard interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* ➕ Add new expenses
+* 🗑️ Delete expenses
+* 🏷️ Categorize expenses
+* 📅 Select expense dates
+* 💰 Calculate total expenses
+* 📊 Calculate average expense
+* 🔢 Track total transactions
+* 💾 Store expenses in LocalStorage
+* 🔄 Preserve data after page refresh
+* 📱 Responsive design
+* 🎨 Modern and interactive dashboard UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React**
+* **JavaScript (ES6+)**
+* **Vite**
+* **HTML5**
+* **CSS3**
+* **LocalStorage**
 
-## Expanding the ESLint configuration
+## ⚛️ React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# epense-tracker
+This project helped me practice and implement several core React concepts:
+
+* Components
+* JSX
+* Props
+* `useState`
+* `useEffect`
+* Controlled form inputs
+* Event handling
+* Conditional rendering
+* List rendering with `map()`
+* Data calculations with `reduce()`
+* Parent-child communication
+* CRUD functionality
+* Browser LocalStorage
+
+## 📂 Project Structure
+
+```text
+expense-tracker/
+│
+├── src/
+│   ├── components/
+│   │   ├── ExpenseForm.jsx
+│   │   └── ExpenseList.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── public/
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate to the project
+
+```bash
+cd expense-tracker
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 💡 How It Works
+
+Users can enter an **expense name, amount, category, and date** through the expense form.
+
+When an expense is submitted, React updates the application state and displays the new expense in the expense list.
+
+The dashboard automatically calculates:
+
+* **Total Expenses** — the total amount of all recorded expenses
+* **Transactions** — the number of recorded expenses
+* **Average Expense** — the average amount spent per transaction
+
+The application also uses **LocalStorage** so expenses remain available even after refreshing the browser.
+
+## 🎯 Project Purpose
+
+This project was created to strengthen practical knowledge of **React and JavaScript** by building a complete, functional application instead of working only with individual concepts.
+
+It demonstrates the use of React state, props, forms, events, list rendering, side effects, data calculations, and browser storage in a single project.
+
+## 🔮 Future Improvements
+
+* ✏️ Edit existing expenses
+* 🔍 Search expenses
+* 🔽 Filter and sort expenses
+* 📊 Add expense charts
+* 📅 Monthly expense reports
+* 💵 Add budget tracking
+* 🌙 Add dark mode
+* 🔐 Add user authentication
+* ☁️ Connect to a backend and database
+
+## 👩‍💻 Author
+
+**Fizza Yousaf**
+
+Built with ❤️ using React and Vite.
