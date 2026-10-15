@@ -1,14 +1,14 @@
 # 💰 Expense Tracker | React + Vite
 
-A modern, responsive, and user-friendly **Expense Tracker Web Application** developed using **React, JavaScript, and Vite**.
+A modern, responsive, and interactive **Expense Tracker Web Application** built with **React.js, JavaScript (ES6+), and Vite**.
 
-This application helps users manage their daily expenses, organize transactions by category, and monitor their spending through a clean and interactive dashboard.
+This application helps users manage daily expenses, organize transactions by category, and track spending through a clean and user-friendly dashboard.
 
-The project demonstrates practical implementation of React fundamentals, component-based architecture, state management, dynamic rendering, and browser LocalStorage.
+The project demonstrates my practical experience with **React components, state management, event handling, dynamic rendering, and LocalStorage**.
 
-### 🔗 Project Links
+## 🔗 Live Demo & Repository
 
-**Live Demo:** [View Expense Tracker](https://fizza-yousaf.github.io/epense-tracker/)
+**Live Website:** [View Expense Tracker](https://fizza-yousaf.github.io/epense-tracker/)
 
 **GitHub Repository:** [View Source Code](https://github.com/fizza-yousaf/epense-tracker)
 
@@ -16,17 +16,17 @@ The project demonstrates practical implementation of React fundamentals, compone
 
 ## 📸 Project Screenshots
 
-### 1. Expense Tracker — Initial Dashboard
+### 1. Initial Dashboard
 
-A clean dashboard showing the expense summary, total transactions, and expense entry form.
+The initial dashboard displays the expense entry form, total spending, transaction counter, and average expense summary.
 
-**[DRAG YOUR FIRST SCREENSHOT HERE]**
+![Expense Tracker Initial Dashboard](https://raw.githubusercontent.com/fizza-yousaf/epense-tracker/main/screenshots/dashboard-empty.png)
 
-### 2. Expense Tracker — Dashboard With Transactions
+### 2. Dashboard With Expenses
 
-An interactive dashboard displaying recorded expenses, spending calculations, and transaction details.
+The dashboard after adding transactions, displaying recorded expenses, calculated totals, and transaction details.
 
-**[DRAG YOUR SECOND SCREENSHOT HERE]**
+![Expense Tracker Dashboard With Expenses](https://raw.githubusercontent.com/fizza-yousaf/epense-tracker/main/screenshots/dashboard-with-expenses.png)
 
 ---
 
@@ -35,13 +35,13 @@ An interactive dashboard displaying recorded expenses, spending calculations, an
 - **Add Expenses:** Record expenses with a title, amount, category, and date.
 - **Delete Expenses:** Remove unwanted transactions.
 - **Expense Categories:** Organize spending into different categories.
-- **Total Expenses:** Automatically calculate total spending.
-- **Average Expense:** Display average spending per transaction.
-- **Transaction Counter:** Track the number of recorded expenses.
-- **LocalStorage Integration:** Save expenses in the browser.
-- **Persistent Data:** Keep expense records after refreshing the page.
-- **Responsive Design:** Optimized for desktop, tablet, and mobile screens.
-- **Interactive Dashboard:** Dynamic updates without reloading the page.
+- **Total Expenses:** Automatically calculate the total spending amount.
+- **Average Expense:** Calculate the average amount per transaction.
+- **Transaction Counter:** Track the total number of expense entries.
+- **LocalStorage Integration:** Save expense data directly in the browser.
+- **Persistent Data:** Retain records after refreshing the page.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Dynamic Dashboard:** Instantly update spending summaries without reloading the page.
 
 ---
 
@@ -50,25 +50,25 @@ An interactive dashboard displaying recorded expenses, spending calculations, an
 | Technology | Purpose |
 |---|---|
 | React.js | Component-based user interface |
-| JavaScript (ES6+) | Application logic and functionality |
-| Vite | Development and build tooling |
+| JavaScript (ES6+) | Application logic and interactivity |
+| Vite | Development server and build tooling |
 | HTML5 | Application structure |
-| CSS3 | Styling and responsive layouts |
+| CSS3 | Styling and responsive design |
 | LocalStorage | Persistent browser data storage |
 | Git & GitHub | Version control and source code hosting |
-| GitHub Pages | Live website deployment |
+| GitHub Pages | Website deployment |
 
 ---
 
 ## ⚛️ React Concepts Implemented
 
-This project provided hands-on experience with essential React concepts:
+This project helped me practice essential React concepts:
 
 - Functional Components
 - JSX
 - Props
 - `useState` for state management
-- `useEffect` for side effects and LocalStorage synchronization
+- `useEffect` for LocalStorage synchronization
 - Controlled Form Inputs
 - Event Handling
 - Conditional Rendering
@@ -88,6 +88,10 @@ expense-tracker/
 ├── public/
 │   ├── favicon.svg
 │   └── icons.svg
+│
+├── screenshots/
+│   ├── dashboard-empty.png
+│   └── dashboard-with-expenses.png
 │
 ├── src/
 │   ├── assets/
@@ -141,7 +145,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL displayed in the terminal, usually `http://localhost:5173/`.
+Open the local URL displayed in your terminal, usually `http://localhost:5173/`.
 
 ### 5. Build for Production
 
@@ -175,7 +179,7 @@ The dashboard automatically updates three financial summaries:
 
 **Step 5 — Save Data**
 
-Expense records are stored using browser LocalStorage, allowing users to retain their data after refreshing or reopening the application in the same browser.
+Expense records are stored in browser LocalStorage, allowing users to retain their data after refreshing or reopening the application in the same browser.
 
 ---
 
@@ -191,10 +195,10 @@ Through this application, I focused on:
 - Implementing interactive UI functionality.
 - Performing real-time data calculations.
 - Persisting application data using LocalStorage.
-- Creating responsive and accessible layouts.
+- Creating responsive layouts.
 - Deploying a React application using GitHub Pages.
 
-This project represents my hands-on learning journey in React development.
+This project represents an important milestone in my hands-on React development journey.
 
 ---
 
@@ -212,13 +216,6 @@ This project represents my hands-on learning journey in React development.
 - Export expense reports as CSV or PDF.
 
 ---
-## 📸 Project Screenshots
-
-### Initial Dashboard
-![Initial Dashboard](https://github.com/user-attachments/assets/ACTUAL-FIRST-IMAGE-ID)
-
-### Dashboard With Expenses
-![Dashboard With Expenses](https://github.com/user-attachments/assets/ACTUAL-SECOND-IMAGE-ID)
 
 ## 👩‍💻 About the Developer
 
@@ -226,7 +223,7 @@ This project represents my hands-on learning journey in React development.
 
 Frontend Developer | React.js | JavaScript | HTML | CSS
 
-Passionate about developing responsive, interactive, and user-friendly web applications while continuously improving my frontend development skills.
+Passionate about building responsive, interactive, and user-friendly web applications while continuously improving my frontend development skills.
 
 **GitHub:** [fizza-yousaf](https://github.com/fizza-yousaf)
 
@@ -234,7 +231,7 @@ Passionate about developing responsive, interactive, and user-friendly web appli
 
 ---
 
-### ⭐ Support
+## ⭐ Support
 
 If you find this project useful, consider giving the repository a star!
 
